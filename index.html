@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia Mello</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="container header-content">
+            <div class="logo">
+                <img src="img/heade2r.jpg" alt="logo">
+            </div>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">A Barbearia</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#contact" class="btn-gold">Agendar</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-text">
+            <p class="pre-title">
+                Barbearia Mello
+                <i class="fa-solid fa-scissors fa-rotate-90" style="margin-left: 10px; color: var(--gold);"></i>
+            </p>
+            <h1>CADA CORTE É UMA<br>OBRA DE ARTE</h1>
+            <p class="subtitle">A experiência definitiva em cuidados masculinos.</p>
+            <div class="hero-btns">
+                <a href="#services" class="btn-outline">Nossos Serviços</a>
+                <a href="#contact" class="btn-filled">Agendar Horário</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container about-grid">
+            <div class="about-image">
+                <img id="imglocal" src="img/local.jpg" alt="Nossa fachada">
+                <div class="image-border"></div>
+            </div>
+            <div class="about-text">
+                <h2>
+                    BARBEARIA
+                    <span class="text-gold" style="white-space: nowrap;">
+                        MELLO
+                        <i class="fa-solid fa-scissors fa-rotate-90 fa-xs" style="margin-left: 15px;"></i>
+                    </span>
+                </h2>
+                <p>Somos a boa e velha tradicional barbearia de bairro. Barbearia raiz. Atendemos do netinho ao vovô.
+                    Venha viver essa experiência.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>MENU DE <span class="text-gold">SERVIÇOS</span></h2>
+                <div class="separator"></div>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-info">
+                        <h3>Corte Signature</h3>
+                        <p>Lavagem, corte na tesoura/máquina e finalização.</p>
+                    </div>
+                    <div class="service-price">R$ 35</div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-info">
+                        <h3>Barba Real</h3>
+                        <p>Toalha quente, navalha e massagem facial.</p>
+                    </div>
+                    <div class="service-price">R$ 35</div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-info">
+                        <h3>Combo Mello</h3>
+                        <p>A experiência completa: Cabelo + Barba + Bebida.</p>
+                    </div>
+                    <div class="service-price">R$ 45</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="location" class="location-section">
+        <div class="container location-grid">
+
+            <div class="location-text">
+                <h2>NOSSA <span class="text-gold">LOCALIZAÇÃO</span></h2>
+                <p class="loc-desc">Fácil acesso e estacionamento exclusivo para clientes.</p>
+
+                <div class="loc-item">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="text-box">
+                        <h3>Endereço</h3>
+                        <p>Av. Sete de Setembro, 580B - Jardim da Gloria, Maringá - PR, 87047-130<br>Maringá - PR</p>
+                    </div>
+                </div>
+
+                <div class="loc-item">
+                    <div class="icon-box">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                    <div class="text-box">
+                        <h3>Contato</h3>
+                        <p>(44) 99123-9916<br>(44) 3263-4456</p>
+                    </div>
+                </div>
+
+                <a href="https://www.google.com/maps/dir//Av.Sete de Setembro,+580B,+Jardim+da+Gloria,+Maringa+-+PR"
+                    target="_blank" class="btn-gold mt-20">
+                    Traçar Rota
+                </a>
+
+            </div>
+
+            <div class="map-wrapper">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29290.00312755626!2d-51.8896528!3d-23.4153205!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ecd059788d3391%3A0x6d72faf90778144!2sMerlo%20Barbearia!5e0!3m2!1spt-BR!2sbr!4v1765901747209!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+    </section>
+    <footer id="contact">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3>Mello Barbearia</h3>
+                <p>Onde o clássico encontra o moderno.</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Horários</h4>
+                <p style="line-height: 1.8;">
+                    Segunda: 09:00 – 18:00 <br>
+                    Terça: 09:00 – 19:00 <br>
+                    Quarta: 09:00 – 17:00 <br>
+                    Quinta: 09:00 – 19:00 <br>
+                    Sexta: 09:00 – 19:00 <br>
+                    Sábado: 09:00 – 18:00 <br>
+                    Domingo: Fechado
+                </p>
+            </div>
+
+            <div class="footer-col">
+                <div class="social-section">
+                    <h3>Siga-nos</h3>
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/MerloBarbearia/?_rdc=1&_rdr#" target="_blank"
+                            class="social-btn facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/merlobarbearia/" target="_blank"
+                            class="social-btn instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="https://wa.me/+55449991239916" target="_blank" class="social-btn whatsapp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            &copy; 2025 Barbearia Mello. Todos os direitos reservados.
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navLinks = document.querySelector(".nav-links");
+
+        // Abre e fecha o menu
+        hamburger.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+
+        // Fecha o menu ao clicar em um link
+        document.querySelectorAll(".nav-links a").forEach(n => n.addEventListener("click", () => {
+            navLinks.classList.remove("active");
+        }));
+    </script>
+</body>
+
+</html>
